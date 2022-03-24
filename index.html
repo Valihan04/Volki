@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="kg">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__content">
-                <img src="./img/Stakan.svg" alt="">
+                <img src="./img/butylka.svg" alt="">
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">Valya</li>
@@ -36,5 +40,45 @@
             </div>
         </div>
     </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                 Лучше иметь друга, чем друг друга !!!
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular">
+        <div class="container">
+            <h2 class="popular__title">
+                наши волки
+            </h2>
+            <div class="popular__content">
+                <div class="swiper">
+                    
+                    <div class="swiper-wrapper">
+                
+                      <div class="swiper-slide">
+                          <div class="popular__slide"><img src="./img/acee8695-7548-4680-96e9-0c971cd4b70a.jpg" alt=""></div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="popular__slide"><img src="./img/80da67d1-6929-458e-bb1d-3b21fe716748.jpg" alt=""></div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="popular__slide"><img src="./img/e371a5d3-b2f3-4ecd-aea4-47aa8abcfc51.jpg" alt=""></div>
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                  
+                  </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
